@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1599743279 source:d:\codeblocksfiles\sat\cnffile.c
+	"cnfFile.h"
+	<string.h>
+
+1581663003 d:\codeblocksfiles\sat\cnffile.h
+	"clause.h"
+
+1582008281 d:\codeblocksfiles\sat\clause.h
+	<stdio.h>
+	<stdlib.h>
+
+1582534393 source:d:\codeblocksfiles\sat\clause.c
+	"clause.h"
+
+1599805939 source:d:\codeblocksfiles\sat\main.c
+	"display.h"
+
+1581584081 d:\codeblocksfiles\sat\display.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"cnfFile.h"
+	"DPLL.h"
+	"sudoku.h"
+	<io.h>
+	<string.h>
+
+1581848483 d:\codeblocksfiles\sat\dpll.h
+	"clause.h"
+	<math.h>
+
+1599872648 source:d:\codeblocksfiles\sat\display.c
+	"display.h"
+
+1582612617 source:d:\codeblocksfiles\sat\dpll.c
+	"DPLL.h"
+	<time.h>
+
+1599873593 source:d:\codeblocksfiles\sat\sukodu.c
+	"sudoku.h"
+	"dpll.h"
+
+1599874393 d:\codeblocksfiles\sat\sudoku.h
+	"clause.h"
+
